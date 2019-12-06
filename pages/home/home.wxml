@@ -1,0 +1,6 @@
+<!--pages/home/home.wxml-->
+
+<view id="dome">
+<text class="title">home.jiahaudongzhou</text>
+<button class="weixin">按钮</button>
+</view>
