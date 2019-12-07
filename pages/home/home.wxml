@@ -1,6 +1,13 @@
 <!--pages/home/home.wxml-->
 
-<view id="dome">
-<text class="title">home.jiahaudongzhou</text>
-<button class="weixin">按钮</button>
-</view>
+<!--1.小程序的数据绑定-->
+<view>{{msg}}</view>
+<view>我的年龄是:{{age}}</view>
+<!--2.列表展示-->
+<view wx:for="{{students}}">{{item.name}}--{{item.id}}--{{item.age}}</view>
+
+
+<!--3.时间监听改变data-->
+<view>当前计数:{{counter}}</view>
+<button size="mini" bindtap="add">+</button>
+<button size="mini" bindtap="odd">-</button>

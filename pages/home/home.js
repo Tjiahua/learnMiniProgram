@@ -1,66 +1,32 @@
-// pages/home/home.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
-  data: {
+data:{
+  msg:"jiahuahello",
+  age:18,
+  students:[
+    { id: 110, name: 'kobe', age: 33 },
+    { id: 110, name: 'jame', age: 28 },
+    { id: 110, name: 'curry', age: 33 },
+    { id:110,  name: 'ouwen', age: 33 }
+  ],
+  counter:0
+},
+add() {
+  //错误做法.界面不会发生变化 补属性
+//  this.data.counter += 1
+//  console.log(this.data.counter) 
+this.setData({
+  counter: this.data.counter + 1
+})
+}
+,
+odd(){
+  this.setData({
+    counter:this.data.counter -1
+  })
+}
 
-  },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
 
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
+  
 })
