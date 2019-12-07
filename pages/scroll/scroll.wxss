@@ -1,0 +1,35 @@
+/* pages/scroll/scroll.wxss */
+text {
+  color:orangered;
+  font-size: 27px;
+  
+ 
+ 
+}
+.container1 {
+  background: plum;
+  white-space: nowrap;
+}
+.item1 {
+  display: inline-block;
+  background: orange;
+  width: 100px;
+  height: 100px;
+  border-radius:50px;
+
+  margin: 10px;
+}
+.container2 {
+  background: pink;
+  height: 250px;
+  margin-top: 10px;
+}
+.item2 {
+ 
+  background: skyblue;
+ 
+  height: 100px;
+
+
+  margin: 10px;
+}
