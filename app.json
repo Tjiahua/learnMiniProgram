@@ -1,6 +1,7 @@
 {
   "pages": [
-   
+    "pages/image/mage",
+   "pages/view/view",
     "pages/home/home",
     "pages/about/about"
   ],

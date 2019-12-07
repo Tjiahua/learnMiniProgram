@@ -1,0 +1,14 @@
+<!--pages/image/mage.wxml-->
+<text>image组件</text>
+<!-- image的基本使用 -->
+<!-- bindload监听图片加载完成 -->
+<!-- lazy-load图片的懒加载 -->
+<!-- <image src="http://img4.imgtn.bdimg.com/it/u=3198325543,3490226143&fm=26&gp=0.jpg"
+bindload="bandok"/> -->
+<button bindtap="clickok">选中图片</button>
+<!-- <image src="{{imagePath}}"></image> -->
+<image wx:for="{{1}}"src="http://img4.imgtn.bdimg.com/it/u=3198325543,3490226143&fm=26&gp=0.jpg"
+bindload="{{bandok}}" lazy-load />
+
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+        show-menu-by-longpress mode="aspectFit"/>
