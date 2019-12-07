@@ -1,0 +1,12 @@
+<!--pages/text/text.wxml-->
+<text>helloword</text>
+<text>小程序</text>
+<!-- 默认情况下text中长按是不能选中的 -->
+
+<text selectable>hello</text>
+<button>anniu</button>
+<button size="mini">click</button>
+<button plain                                                                                                 >anniu</button>
+<button disabled>click me</button>
+<button size="mini" loading>click me</button>
+<button hover-class="pressed">click me</button>
