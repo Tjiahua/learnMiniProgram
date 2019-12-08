@@ -1,6 +1,6 @@
 {
   "pages": [
-   
+    "pages/masdown/masdown",
     "pages/home/home",
     "pages/about/about"
   ],

@@ -4,3 +4,5 @@
 <text class="title">home.jiahaudongzhou</text>
 <button class="weixin">按钮</button>
 </view>
+<view class="box1"></view>
+<view class="box2"></view>

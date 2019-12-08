@@ -1,0 +1,26 @@
+<!--pages/masdown/masdown.wxml-->
+<text>mustach语法教程</text>
+
+<view>hello </view>
+<!-- wx:if的使用 -->
+<button bindtap="handleShow">切换显示</button>
+<view wx:if="{{isShow}}">哈哈哈</view>
+<button size="mini" bindtap="handleAdd">clike</button>
+<view wx:if="{{score >=90}}">优秀</view>
+<view wx:elif="{{score >=80}}">良好</view>
+<view wx:elif="{{score >=60}}">及格</view>
+<view wx:else="{{score >=30}}">太暗了</view>
+
+
+<!-- 1:wx:for的回顾 -->
+<!-- 1.1 遍历数组/字符串/数字 -->
+<view wx:for="{{[123,456,789]}}">{{item}} {{index}}</view>
+<!-- <view wx:for="abcdefs">{{item}}</view>
+<view wx:for="{{100}}">{{item}}</view> -->
+<!-- 2.block标签 -->
+<!-- <block>
+<button>anniu</button>
+<view>heheheh</view>
+<text>fontsizwe</text>
+</block> -->
+<view wx:for="{{movies}}">{{item}}</view>
