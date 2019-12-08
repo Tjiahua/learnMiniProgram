@@ -1,0 +1,4 @@
+<!--pages/bind/bind.wxml-->
+<text>pages/bind/bind.wxml</text>
+
+<view class="box" bind:touchstart="handleTouch">HEKKI</view>

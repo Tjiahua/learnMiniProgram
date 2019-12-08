@@ -1,0 +1,12 @@
+<!--pages/template/tamplate.wxml-->
+<view>------------ template -------------</view>
+
+<!-- <template name="contentItem">
+<button>{{btnText}}</button>
+<view>hehhehheh</view>
+</template> -->
+<import src="/wxml/template.wxml"/>
+<template is="contentItem" data="{{btnText:'anniu',content:'甲华东周'}}"/>
+<template is="contentItem" data="{{btnText:'警告',content:'卓玛'}}"/>
+<template is="contentItem" data="{{btnText:'anniu',content:'甲华东周'}}"/>
+

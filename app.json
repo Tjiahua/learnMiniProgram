@@ -1,6 +1,7 @@
 {
   "pages": [
-   
+    "pages/bind/bind",
+   "pages/template/tamplate",
     "pages/home/home",
     "pages/about/about"
   ],
